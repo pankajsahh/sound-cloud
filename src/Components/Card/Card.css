@@ -1,0 +1,30 @@
+.Card{
+    flex: 1 0 21%; /* explanation below */
+
+    
+    margin: 15px;
+    font-size: small;
+    color: aliceblue;
+    max-width: max-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgba(19, 33, 53, 0.767);
+    /* border: 1px solid red; */
+    border-radius: 10px 10px 5px 5px;
+    overflow: hidden;
+}
+.Card img{
+    width: 10rem;
+    height: 12rem;
+    object-fit: cover;
+}
+.details{
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 0 3px 0 rgb(49, 12, 32);
+}
+.time{
+    display: flex;
+    justify-content: space-evenly;
+}

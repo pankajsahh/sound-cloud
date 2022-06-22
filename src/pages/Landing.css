@@ -1,0 +1,75 @@
+.Loading {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.Outload{
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    padding: 5px;
+    background-color: rgb(221, 62, 62);
+    animation: example;
+    animation-duration: 700ms;
+    animation-iteration-count: infinite;
+}
+.Inload{
+    width: 10px;
+    height: 10px;
+    border-radius: 30px;
+    padding: 5px;
+    background-color: rgb(233, 34, 34);
+    animation: example;
+    animation-duration: 600ms;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes example {
+        from{
+            background-color: rgb(221, 62, 62);
+        }
+        to{
+            background-color: rgb(129, 11, 11);
+        }
+}
+
+.block{
+    display: none;
+}
+
+/* bottom player */
+.line{
+    display: flex;
+
+}
+.line_over{
+    width: 20%;
+    border: 1px solid rgb(44, 161, 28);
+}
+.line_left{
+    width: 80%;
+    border: 1px solid whitesmoke;
+
+    
+}
+.bottomplayer{
+    background-color: rgb(20, 18, 43);
+    width: 100%;
+    color: aliceblue;
+    position: fixed;
+    bottom: 0px;
+}
+.songdetail{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+/* cardlist */
+.cardlist{
+    padding: 0 20%;
+    display: flex;
+    flex-wrap: wrap;
+}

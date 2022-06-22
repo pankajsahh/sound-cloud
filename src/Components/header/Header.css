@@ -1,0 +1,8 @@
+.header h3{
+    color: aliceblue;
+    padding-left: 10em;
+}
+.header {
+/* border: 1px solid red; */
+box-shadow: 0 3px  4px 0px rgb(211, 197, 197);
+}
